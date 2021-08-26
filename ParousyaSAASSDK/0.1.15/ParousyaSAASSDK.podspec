@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source = { :http => "https://github.com/lelinh/Parousya-SAAS-iOS-SDK/releases/download/0.1.15/ParousyaSAASSDK_0.1.15.zip" }
   s.ios.deployment_target = "10.0"
-  s.ios.vendored_frameworks = "ParousyaSAASSDK.xcframework"
+  s.ios.vendored_xcframeworks = "ParousyaSAASSDK.xcframework"
   s.module_name = "ParousyaSAASSDK"
 
   s.static_framework = true
