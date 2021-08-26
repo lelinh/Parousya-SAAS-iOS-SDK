@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name = "ParousyaSAASSDK"
-  s.version = "0.1.14"
+  s.version = "0.1.15"
   s.summary = "iOS SDK for Parousya clients"
   s.homepage = "https://www.parousya.com"
   s.license = "MIT"
   s.author = { "Xuan Jie Chew" => "xuanjie@buuuk.com" }
 
   s.platform = :ios, "10.0"
-  s.swift_version = "5.1"
+  s.swift_version = "5.4"
   s.requires_arc = true
 
-  s.source = { :http => "https://github.com/lelinh/Parousya-SAAS-iOS-SDK/releases/download/0.1.14/ParousyaSAASSDK_0.1.14.zip" }
+  s.source = { :http => "https://github.com/lelinh/Parousya-SAAS-iOS-SDK/releases/download/0.1.15/ParousyaSAASSDK_0.1.15.zip" }
   s.ios.deployment_target = "10.0"
   s.ios.vendored_frameworks = "ParousyaSAASSDK.framework"
   s.module_name = "ParousyaSAASSDK"
