@@ -14,13 +14,13 @@ Pod::Spec.new do |s|
   s.author = { "Xuan Jie Chew" => "xuanjie@buuuk.com" }
 
   s.platform = :ios, "10.0"
-  s.swift_version = "5.4"
+  s.swift_version = "5.1"
   s.requires_arc = true
 
   s.source = { :http => "https://github.com/lelinh/Parousya-SAAS-iOS-SDK/releases/download/0.1.17/ParousyaSAASSDK_0.1.17.tar.gz" }
   
-  s.ios.deployment_target = "10.0"
-  s.ios.vendored_frameworks = "Frameworks/ParousyaSAASSDK.xcframework"
+  s.deployment_target = "10.0"
+  s.vendored_frameworks = "Frameworks/ParousyaSAASSDK.xcframework"
   # s.module_name = "ParousyaSAASSDK"
 
   s.dependency "SwiftKeychainWrapper"
