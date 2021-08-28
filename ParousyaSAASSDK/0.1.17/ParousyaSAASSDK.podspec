@@ -22,6 +22,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "Frameworks/ParousyaSAASSDK.xcframework"
   # s.module_name = "ParousyaSAASSDK"
 
-  s.dependency "SwiftKeychainWrapper"
   s.dependency "EstimoteProximitySDK"
 end
