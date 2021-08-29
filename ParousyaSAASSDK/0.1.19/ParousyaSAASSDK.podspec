@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source = { :http => "https://github.com/lelinh/Parousya-SAAS-iOS-SDK/releases/download/0.1.19/ParousyaSAASSDK_0.1.19.tar.gz" }
   
   s.vendored_frameworks = "Frameworks/ParousyaSAASSDK.xcframework"
-  s.dependency "SwiftKeychainWrapper"
+
   s.dependency "EstimoteProximitySDK"
 end
